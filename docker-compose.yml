@@ -1,0 +1,6 @@
+CRMPoint:
+  build: ./
+  image: christopotamus/crmpoint
+  expose:
+    - "443"
+    - "80"
